@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/*width: 600px;
+  margin-left: auto;
+  margin-right: auto;*/
+} 
+
+a {
+  color: #00B7FF;
+}
+
+p.error {
+  color: red;
+}
+
+.main{
+    max-width: 60%;
+    margin: 5px;
+ }
+ .aside{
+   float: left;
+ }
+ .intiative{
+    max-width: 20%;
+    margin: 5px; 
+    padding-bottom: 5px;
+ }
+.effects{
+    max-width: 20%;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+input.mainadd{
+    float: right;
+    margin: 2px;
+}
+
+.monster{
+	max-width: 90%;
+}
