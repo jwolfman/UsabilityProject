@@ -8,7 +8,7 @@
   <body>
     <aside>
         <div class="intiative">
-            <fieldset>          
+            <fieldset id="initField">          
                 <legend><button id="addInit">Initiative+</button></legend>
             </fieldset>
         </div>
@@ -47,7 +47,7 @@
             $("div#monsterlist").append( '<fieldset> <legend>Monster</legend>HP<input type="number" name="HP" min="0" max="100">AC<input type="number" name="HP" min="0" max="100"><button class="dropdown">>></button></fieldset>' );
         });
         $("#addInit").click(function(){
-
+            $("fieldset#initField").append( '<fieldset class="initativeBlock"><input type="text"><input type="number" min="0" max="100"></fieldset>' );
         });
         $("#addEffect").click(function() {
 
