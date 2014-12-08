@@ -15,27 +15,37 @@ p.error {
 }
 
 .main{
-    width: 600px;
+    width: 700px;
     margin: 5px;
-    display: inline;
     position:fixed;
-    top: 5px;
-    left: 207px;
+    top: 15px;
+    left: 307px;
  }
+#mainFields{
+    height: 500px;
+}
  .aside{
    float: left;
  }
  .intiative{
-    width: 200px;
-    margin: 5px; 
+    width: 300px;
+    margin: 5px;
+     margin-bottom: 0;
     padding-bottom: 5px;
  }
+ .intiative fieldset{
+     height: 240px;
+ }
 .effects{
-    width: 200px;
+    width: 300px;
     margin: 5px;
+    margin-top: 0;
     padding-bottom: 5px;
     position: fixed;
-    left:801px;
+    left:13px;
+}
+.effects fieldset{
+    height: 240px;
 }
 input.mainadd{
     float: right;
