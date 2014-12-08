@@ -8,10 +8,14 @@ var app = express();
 app.set('port', 3000);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
-//app.use(express.favicon());
-//app.use(express.logger('dev'));
-//app.use(express.bodyParser());
-//app.use(express.methodOverride());
+/*var favicon=require("serve-favicon");
+app.use(favicon());
+var logger=require("morgan");
+app.use(logger('dev'));
+var bodyParser=require("body-parser")
+app.use(bodyParser());
+var methodOverride=require("method-override");
+app.use(methodOverride());*/
 
 var tools=require("./routes/tools")
 
