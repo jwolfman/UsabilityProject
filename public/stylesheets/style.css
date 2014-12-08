@@ -52,9 +52,8 @@ input.mainadd{
     margin: 2px;
 }
 
-.monster{
-    top: 10px;
-    width: 90%;
+#monsterList{
+    margin-top: 25px;
 }
 
 fieldset.initativeBlock {
