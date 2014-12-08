@@ -13,7 +13,7 @@
             </fieldset>
         </div>
         <div class="effects">
-            <fieldset>
+            <fieldset id="effectField">
                 <legend><button id="addEffect">Effects+</button></legend>
             </fieldset>
         </div>
@@ -50,7 +50,7 @@
             $("fieldset#initField").append( '<fieldset class="initativeBlock"><input type="text"><input type="number" min="0" max="100"></fieldset>' );
         });
         $("#addEffect").click(function() {
-
+            $("fieldset#effectField").append( '<fieldset class="initativeBlock"><input type="text"><input type="number" min="0" max="100"></fieldset>' );
         });
   </script>
 
