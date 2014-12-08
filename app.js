@@ -16,6 +16,7 @@ var bodyParser=require("body-parser")
 app.use(bodyParser());
 var methodOverride=require("method-override");
 app.use(methodOverride());*/
+app.use(express.static(path.join(__dirname, 'public')));
 
 var tools=require("./routes/tools")
 
