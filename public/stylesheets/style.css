@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 5px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 /*width: 600px;
   margin-left: auto;
@@ -15,21 +15,27 @@ p.error {
 }
 
 .main{
-    max-width: 60%;
+    width: 600px;
     margin: 5px;
+    display: inline;
+    position:fixed;
+    top: 5px;
+    left: 207px;
  }
  .aside{
    float: left;
  }
  .intiative{
-    max-width: 20%;
+    width: 200px;
     margin: 5px; 
     padding-bottom: 5px;
  }
 .effects{
-    max-width: 20%;
+    width: 200px;
     margin: 5px;
     padding-bottom: 5px;
+    position: fixed;
+    left:801px;
 }
 input.mainadd{
     float: right;
@@ -37,5 +43,6 @@ input.mainadd{
 }
 
 .monster{
-	max-width: 90%;
+    top: 10px;
+    width: 90%;
 }
