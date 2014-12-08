@@ -20,9 +20,9 @@
     </aside>
     <div class="main">
         <fieldset>
-            <input type="button" value="++" class="mainadd">
-            <input type="button" value="+" class="mainadd">
-            <div class="monster">
+            <input type="button" value="++" class="mainadd" id="addgroup">
+            <input type="button" value="+" class="mainadd" id="addsingle">
+            <div class="monster" id="monsterlist">
             	<fieldset>
             	<legend>Monster A</legend>
             	HP
@@ -42,5 +42,11 @@
             </div>
         </fieldset>
   </div>
+  <script>
+        $("#addsingle").click(function(){
+            $("div#monsterlist").append( '<fieldset> <legend>Monster C</legend>HP<input type="number" name="HP" min="0" max="100">AC<input type="number" name="HP" min="0" max="100"><button class="dropdown">>></button></fieldset>' );
+        });
+  </script>
+
   </body>
 </html>
