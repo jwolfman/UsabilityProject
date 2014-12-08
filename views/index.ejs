@@ -9,12 +9,12 @@
     <aside>
         <div class="intiative">
             <fieldset>          
-                <legend><button>Initiative+</button></legend>
-            <fieldset>
+                <legend><button id="addInit">Initiative+</button></legend>
+            </fieldset>
         </div>
         <div class="effects">
             <fieldset>
-                <legend><button>Effects+</button></legend>
+                <legend><button id="addEffect">Effects+</button></legend>
             </fieldset>
         </div>
     </aside>
@@ -44,7 +44,13 @@
   </div>
   <script>
         $("#addsingle").click(function(){
-            $("div#monsterlist").append( '<fieldset> <legend>Monster C</legend>HP<input type="number" name="HP" min="0" max="100">AC<input type="number" name="HP" min="0" max="100"><button class="dropdown">>></button></fieldset>' );
+            $("div#monsterlist").append( '<fieldset> <legend>Monster</legend>HP<input type="number" name="HP" min="0" max="100">AC<input type="number" name="HP" min="0" max="100"><button class="dropdown">>></button></fieldset>' );
+        });
+        $("#addInit").click(function(){
+
+        });
+        $("#addEffect").click(function() {
+
         });
   </script>
 
