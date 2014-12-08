@@ -20,6 +20,7 @@
     </aside>
     <div class="main">
         <fieldset id="mainFields">
+            <legend>Workspace</legend>
             <input type="button" value="Add Group" class="mainadd" id="addgroup">
             <input type="button" value="Add Monster" class="mainadd" id="addsingle">
             <div class="monster" id="monsterList">
@@ -44,7 +45,7 @@
   </div>
   <script>
         $("#addsingle").click(function(){
-            $("#monsterList").append( '<fieldset> <legend>Monster</legend>HP<input type="number" name="HP" min="0" max="100">AC<input type="number" name="HP" min="0" max="100"><button class="dropdown">>></button></fieldset>' );
+            $("#monsterList").append( '<fieldset> <legend>Monster</legend>HP <input type="number" name="HP" min="0" max="100"> AC <input type="number" name="AC" min="0" max="100"> <button class="dropdown">>></button></fieldset>' );
         });
         $("#addInit").click(function(){
             $("fieldset#initField").append( '<fieldset class="initativeBlock"><input type="text"><input type="number" min="0" max="100"></fieldset>' );
